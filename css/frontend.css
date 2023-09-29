@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.hero {
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: auto;
+    width: 67%;
+
+
+}
+
+.row {
+    display: flex;
+}
+
+
+
+.hero-box-1 {
+    width: 300px;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px;
+    border-top-left-radius: 3% !important;
+    border-bottom-left-radius: 3% !important;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+.text-1 {
+    font-size: larger;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 400;
+    line-height: 25.5px;
+
+}
+
+.text-2 {
+    font-size: large;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font: 400;
+    line-height: 25.5px;
+
+}
+
+.hero-box-2 {
+    width: 300px;
+    height: 450px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.hero-box-3 {
+    width: 300px;
+    height: 450px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px;
+    box-sizing: border-box;
+    display: block;
+    border-top-right-radius: 3% !important;
+    border-bottom-right-radius: 3% !important;
+}
+
+
+
+.header {
+    /* margin: 8px; */
+    color: white;
+    font-size: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.button-1 {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: hsl(31, 77%, 52%);
+}
+
+.button-2 {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: hsl(184, 100%, 22%);
+}
+
+.button-3 {
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: hsl(179, 100%, 13%);
+}
